@@ -1,0 +1,240 @@
+2024-02-14 14:27:48,122 INFO    StreamThr :229265 [internal.py:wandb_internal():86] W&B internal server running at pid: 229265, started at: 2024-02-14 14:27:48.122109
+2024-02-14 14:27:48,123 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status
+2024-02-14 14:27:48,131 INFO    WriterThread:229265 [datastore.py:open_for_write():87] open: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/run-t06pxgcg.wandb
+2024-02-14 14:27:48,131 DEBUG   SenderThread:229265 [sender.py:send():382] send: header
+2024-02-14 14:27:48,132 DEBUG   SenderThread:229265 [sender.py:send():382] send: run
+2024-02-14 14:27:48,893 INFO    SenderThread:229265 [dir_watcher.py:__init__():211] watching files in: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files
+2024-02-14 14:27:48,893 INFO    SenderThread:229265 [sender.py:_start_run_threads():1136] run started: t06pxgcg with start time 1707901068.129925
+2024-02-14 14:27:48,896 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: check_version
+2024-02-14 14:27:48,896 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: check_version
+2024-02-14 14:27:49,349 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: run_start
+2024-02-14 14:27:49,360 DEBUG   HandlerThread:229265 [system_info.py:__init__():27] System info init
+2024-02-14 14:27:49,360 DEBUG   HandlerThread:229265 [system_info.py:__init__():42] System info init done
+2024-02-14 14:27:49,360 INFO    HandlerThread:229265 [system_monitor.py:start():194] Starting system monitor
+2024-02-14 14:27:49,360 INFO    SystemMonitor:229265 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-14 14:27:49,360 INFO    HandlerThread:229265 [system_monitor.py:probe():214] Collecting system info
+2024-02-14 14:27:49,360 INFO    SystemMonitor:229265 [interfaces.py:start():190] Started cpu monitoring
+2024-02-14 14:27:49,361 INFO    SystemMonitor:229265 [interfaces.py:start():190] Started disk monitoring
+2024-02-14 14:27:49,361 INFO    SystemMonitor:229265 [interfaces.py:start():190] Started gpu monitoring
+2024-02-14 14:27:49,362 INFO    SystemMonitor:229265 [interfaces.py:start():190] Started memory monitoring
+2024-02-14 14:27:49,362 INFO    SystemMonitor:229265 [interfaces.py:start():190] Started network monitoring
+2024-02-14 14:27:49,390 DEBUG   HandlerThread:229265 [system_info.py:probe():151] Probing system
+2024-02-14 14:27:49,391 DEBUG   HandlerThread:229265 [gitlib.py:_init_repo():56] git repository is invalid
+2024-02-14 14:27:49,391 DEBUG   HandlerThread:229265 [system_info.py:probe():199] Probing system done
+2024-02-14 14:27:49,391 DEBUG   HandlerThread:229265 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.12.1', 'heartbeatAt': '2024-02-14T08:57:49.390173', 'startedAt': '2024-02-14T08:57:48.119946', 'docker': None, 'cuda': None, 'args': ('--device', 'cpu'), 'state': 'running', 'program': '/home/ivlabs/repos/tfs/tranlslation-deq-main/train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'IvLabs', 'username': 'ivlabs', 'executable': '/home/ivlabs/anaconda3/envs/nlp2/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2318.7363333333333, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3700.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2949.672, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}], 'disk': {'/': {'total': 456.8854446411133, 'used': 419.83362579345703}}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12630491136}], 'memory': {'total': 15.518424987792969}}
+2024-02-14 14:27:49,391 INFO    HandlerThread:229265 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-14 14:27:49,392 INFO    HandlerThread:229265 [system_monitor.py:probe():227] Publishing system info
+2024-02-14 14:27:49,392 DEBUG   HandlerThread:229265 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-14 14:27:49,894 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/conda-environment.yaml
+2024-02-14 14:27:51,634 DEBUG   HandlerThread:229265 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-14 14:27:51,635 INFO    HandlerThread:229265 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-14 14:27:51,644 DEBUG   SenderThread:229265 [sender.py:send():382] send: files
+2024-02-14 14:27:51,644 INFO    SenderThread:229265 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-14 14:27:51,649 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-14 14:27:51,649 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: python_packages
+2024-02-14 14:27:51,651 DEBUG   SenderThread:229265 [sender.py:send():382] send: telemetry
+2024-02-14 14:27:51,651 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:27:51,652 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:27:51,652 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:27:51,894 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/conda-environment.yaml
+2024-02-14 14:27:51,894 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/wandb-metadata.json
+2024-02-14 14:27:51,894 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/requirements.txt
+2024-02-14 14:27:53,021 INFO    wandb-upload_0:229265 [upload_job.py:push():131] Uploaded file /tmp/tmpb2jalul1wandb/3nq4ewyh-wandb-metadata.json
+2024-02-14 14:27:54,101 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:27:59,102 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:27:59,896 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/output.log
+2024-02-14 14:28:01,898 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/output.log
+2024-02-14 14:28:04,333 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:06,651 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:28:06,652 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:28:06,652 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:28:10,155 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:15,159 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:20,164 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:20,910 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/config.yaml
+2024-02-14 14:28:21,655 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:28:21,655 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:28:21,655 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:28:26,104 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:31,105 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:36,109 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:36,652 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:28:36,653 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:28:36,693 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:28:42,052 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:47,052 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:49,363 DEBUG   SystemMonitor:229265 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-14 14:28:49,364 DEBUG   SenderThread:229265 [sender.py:send():382] send: stats
+2024-02-14 14:28:51,652 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:28:51,653 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:28:51,694 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:28:52,100 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:28:57,101 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:02,104 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:06,652 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:29:06,652 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:29:06,693 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:29:08,094 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:13,097 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:18,099 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:19,365 DEBUG   SenderThread:229265 [sender.py:send():382] send: stats
+2024-02-14 14:29:21,652 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:29:21,652 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:29:21,693 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:29:23,203 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:28,206 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:33,208 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:36,654 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:29:36,655 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:29:36,698 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:29:39,159 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:44,163 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:49,163 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:29:49,369 DEBUG   SenderThread:229265 [sender.py:send():382] send: stats
+2024-02-14 14:29:51,652 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:29:51,652 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:29:51,693 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:29:55,106 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:30:00,108 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:30:03,984 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/output.log
+2024-02-14 14:30:06,022 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:30:06,633 DEBUG   SenderThread:229265 [sender.py:send():382] send: exit
+2024-02-14 14:30:06,633 INFO    SenderThread:229265 [sender.py:send_exit():589] handling exit code: 1
+2024-02-14 14:30:06,633 INFO    SenderThread:229265 [sender.py:send_exit():591] handling runtime: 137
+2024-02-14 14:30:06,633 INFO    SenderThread:229265 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-14 14:30:06,633 INFO    SenderThread:229265 [sender.py:send_exit():597] send defer
+2024-02-14 14:30:06,633 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:06,633 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-14 14:30:06,633 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:06,634 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-14 14:30:06,634 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 1
+2024-02-14 14:30:06,634 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:06,634 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-14 14:30:06,634 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:06,634 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-14 14:30:06,634 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 2
+2024-02-14 14:30:06,634 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:06,634 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-14 14:30:06,634 INFO    HandlerThread:229265 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-14 14:30:06,634 DEBUG   SystemMonitor:229265 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-14 14:30:06,634 INFO    HandlerThread:229265 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-14 14:30:06,634 DEBUG   SystemMonitor:229265 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-14 14:30:06,634 INFO    HandlerThread:229265 [interfaces.py:finish():202] Joined disk monitor
+2024-02-14 14:30:06,671 INFO    HandlerThread:229265 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-14 14:30:06,671 INFO    HandlerThread:229265 [interfaces.py:finish():202] Joined memory monitor
+2024-02-14 14:30:06,671 INFO    HandlerThread:229265 [interfaces.py:finish():202] Joined network monitor
+2024-02-14 14:30:06,671 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:06,671 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-14 14:30:06,671 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 3
+2024-02-14 14:30:06,671 DEBUG   SenderThread:229265 [sender.py:send():382] send: stats
+2024-02-14 14:30:06,671 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:06,671 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-14 14:30:06,672 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:06,672 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-14 14:30:06,672 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 4
+2024-02-14 14:30:06,672 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:06,672 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-14 14:30:06,672 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:06,672 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-14 14:30:06,672 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 5
+2024-02-14 14:30:06,672 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:06,672 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-14 14:30:06,672 DEBUG   SenderThread:229265 [sender.py:send():382] send: summary
+2024-02-14 14:30:06,672 INFO    SenderThread:229265 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-14 14:30:06,672 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:06,672 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-14 14:30:06,672 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 6
+2024-02-14 14:30:06,673 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:06,673 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-14 14:30:06,673 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:06,673 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-14 14:30:06,673 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 7
+2024-02-14 14:30:06,673 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:30:06,673 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:06,673 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-14 14:30:06,673 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:06,673 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-14 14:30:06,985 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/wandb-summary.json
+2024-02-14 14:30:07,384 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 8
+2024-02-14 14:30:07,384 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:07,384 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-14 14:30:07,384 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:07,385 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-14 14:30:07,385 INFO    SenderThread:229265 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-14 14:30:07,385 INFO    SenderThread:229265 [job_builder.py:_get_source_type():437] no source found
+2024-02-14 14:30:07,385 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 9
+2024-02-14 14:30:07,385 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:07,385 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-14 14:30:07,385 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:07,385 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-14 14:30:07,385 INFO    SenderThread:229265 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-14 14:30:07,633 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-14 14:30:07,985 INFO    Thread-13 :229265 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/output.log
+2024-02-14 14:30:07,986 INFO    SenderThread:229265 [dir_watcher.py:finish():388] scan: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files
+2024-02-14 14:30:07,986 INFO    SenderThread:229265 [dir_watcher.py:finish():402] scan save: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/wandb-summary.json wandb-summary.json
+2024-02-14 14:30:07,986 INFO    SenderThread:229265 [dir_watcher.py:finish():402] scan save: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/output.log output.log
+2024-02-14 14:30:07,988 INFO    SenderThread:229265 [dir_watcher.py:finish():402] scan save: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/wandb-metadata.json wandb-metadata.json
+2024-02-14 14:30:07,989 INFO    SenderThread:229265 [dir_watcher.py:finish():402] scan save: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/config.yaml config.yaml
+2024-02-14 14:30:07,989 INFO    SenderThread:229265 [dir_watcher.py:finish():402] scan save: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/requirements.txt requirements.txt
+2024-02-14 14:30:07,992 INFO    SenderThread:229265 [dir_watcher.py:finish():402] scan save: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/conda-environment.yaml conda-environment.yaml
+2024-02-14 14:30:07,992 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 10
+2024-02-14 14:30:07,992 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: poll_exit
+2024-02-14 14:30:07,994 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:07,994 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-14 14:30:07,996 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:07,996 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-14 14:30:07,996 INFO    SenderThread:229265 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-14 14:30:08,633 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-14 14:30:08,634 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: poll_exit
+2024-02-14 14:30:08,673 INFO    wandb-upload_0:229265 [upload_job.py:push():131] Uploaded file /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/wandb-summary.json
+2024-02-14 14:30:09,207 INFO    wandb-upload_1:229265 [upload_job.py:push():131] Uploaded file /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/output.log
+2024-02-14 14:30:09,210 INFO    wandb-upload_4:229265 [upload_job.py:push():131] Uploaded file /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/conda-environment.yaml
+2024-02-14 14:30:09,297 INFO    wandb-upload_3:229265 [upload_job.py:push():131] Uploaded file /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/requirements.txt
+2024-02-14 14:30:09,297 INFO    wandb-upload_2:229265 [upload_job.py:push():131] Uploaded file /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/files/config.yaml
+2024-02-14 14:30:09,498 INFO    Thread-12 (_thread_body):229265 [sender.py:transition_state():617] send defer: 11
+2024-02-14 14:30:09,498 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:09,498 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-14 14:30:09,498 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:09,498 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-14 14:30:09,498 INFO    SenderThread:229265 [file_pusher.py:join():178] waiting for file pusher
+2024-02-14 14:30:09,499 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 12
+2024-02-14 14:30:09,499 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:09,499 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-14 14:30:09,499 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:09,499 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-14 14:30:09,499 INFO    SenderThread:229265 [file_stream.py:finish():595] file stream finish called
+2024-02-14 14:30:09,634 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-14 14:30:10,641 INFO    SenderThread:229265 [file_stream.py:finish():599] file stream finish is done
+2024-02-14 14:30:10,641 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 13
+2024-02-14 14:30:10,641 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: poll_exit
+2024-02-14 14:30:10,641 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:10,641 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-14 14:30:10,641 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:10,641 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-14 14:30:10,641 INFO    SenderThread:229265 [sender.py:transition_state():617] send defer: 14
+2024-02-14 14:30:10,642 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: defer
+2024-02-14 14:30:10,642 INFO    HandlerThread:229265 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-14 14:30:10,642 DEBUG   SenderThread:229265 [sender.py:send():382] send: final
+2024-02-14 14:30:10,642 DEBUG   SenderThread:229265 [sender.py:send():382] send: footer
+2024-02-14 14:30:10,642 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: defer
+2024-02-14 14:30:10,642 INFO    SenderThread:229265 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-14 14:30:10,642 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-14 14:30:10,643 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: poll_exit
+2024-02-14 14:30:10,643 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-14 14:30:10,643 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: poll_exit
+2024-02-14 14:30:10,643 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: server_info
+2024-02-14 14:30:10,644 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: server_info
+2024-02-14 14:30:10,645 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-14 14:30:10,645 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-14 14:30:10,646 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:30:10,646 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: job_info
+2024-02-14 14:30:11,045 DEBUG   SenderThread:229265 [sender.py:send_request():409] send_request: job_info
+2024-02-14 14:30:11,046 INFO    MainThread:229265 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-14 14:30:11,046 INFO    MainThread:229265 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-14 14:30:11,046 INFO    MainThread:229265 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-02-14 14:30:11,046 DEBUG   HandlerThread:229265 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-14 14:30:11,046 INFO    HandlerThread:229265 [handler.py:finish():869] shutting down handler
+2024-02-14 14:30:11,646 INFO    WriterThread:229265 [datastore.py:close():296] close: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_142748-t06pxgcg/run-t06pxgcg.wandb
+2024-02-14 14:30:12,046 INFO    SenderThread:229265 [sender.py:finish():1572] shutting down sender
+2024-02-14 14:30:12,046 INFO    SenderThread:229265 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-14 14:30:12,046 INFO    SenderThread:229265 [file_pusher.py:join():178] waiting for file pusher

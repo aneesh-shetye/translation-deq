@@ -1,0 +1,89 @@
+2024-02-13 01:46:24,441 INFO    StreamThr :1908161 [internal.py:wandb_internal():86] W&B internal server running at pid: 1908161, started at: 2024-02-13 01:46:24.440585
+2024-02-13 01:46:24,442 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status
+2024-02-13 01:46:24,443 INFO    WriterThread:1908161 [datastore.py:open_for_write():87] open: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/run-f3cakewr.wandb
+2024-02-13 01:46:24,444 DEBUG   SenderThread:1908161 [sender.py:send():382] send: header
+2024-02-13 01:46:24,444 DEBUG   SenderThread:1908161 [sender.py:send():382] send: run
+2024-02-13 01:46:25,344 INFO    SenderThread:1908161 [dir_watcher.py:__init__():211] watching files in: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files
+2024-02-13 01:46:25,344 INFO    SenderThread:1908161 [sender.py:_start_run_threads():1136] run started: f3cakewr with start time 1707768984.44075
+2024-02-13 01:46:25,348 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: check_version
+2024-02-13 01:46:25,349 DEBUG   SenderThread:1908161 [sender.py:send_request():409] send_request: check_version
+2024-02-13 01:46:25,537 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: run_start
+2024-02-13 01:46:25,542 DEBUG   HandlerThread:1908161 [system_info.py:__init__():27] System info init
+2024-02-13 01:46:25,543 DEBUG   HandlerThread:1908161 [system_info.py:__init__():42] System info init done
+2024-02-13 01:46:25,543 INFO    HandlerThread:1908161 [system_monitor.py:start():194] Starting system monitor
+2024-02-13 01:46:25,543 INFO    SystemMonitor:1908161 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-13 01:46:25,543 INFO    HandlerThread:1908161 [system_monitor.py:probe():214] Collecting system info
+2024-02-13 01:46:25,543 INFO    SystemMonitor:1908161 [interfaces.py:start():190] Started cpu monitoring
+2024-02-13 01:46:25,544 INFO    SystemMonitor:1908161 [interfaces.py:start():190] Started disk monitoring
+2024-02-13 01:46:25,544 INFO    SystemMonitor:1908161 [interfaces.py:start():190] Started gpu monitoring
+2024-02-13 01:46:25,545 INFO    SystemMonitor:1908161 [interfaces.py:start():190] Started memory monitoring
+2024-02-13 01:46:25,545 INFO    SystemMonitor:1908161 [interfaces.py:start():190] Started network monitoring
+2024-02-13 01:46:25,575 DEBUG   HandlerThread:1908161 [system_info.py:probe():151] Probing system
+2024-02-13 01:46:25,577 DEBUG   HandlerThread:1908161 [gitlib.py:_init_repo():56] git repository is invalid
+2024-02-13 01:46:25,577 DEBUG   HandlerThread:1908161 [system_info.py:probe():199] Probing system done
+2024-02-13 01:46:25,577 DEBUG   HandlerThread:1908161 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.12.1', 'heartbeatAt': '2024-02-12T20:16:25.575823', 'startedAt': '2024-02-12T20:16:24.437168', 'docker': None, 'cuda': None, 'args': ('--device', 'cpu'), 'state': 'running', 'program': '/home/ivlabs/repos/tfs/tranlslation-deq-main/train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'IvLabs', 'username': 'ivlabs', 'executable': '/home/ivlabs/anaconda3/envs/nlp2/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2411.5295, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3227.952, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3382.835, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}], 'disk': {'/': {'total': 456.8854446411133, 'used': 433.4913444519043}}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12630491136}], 'memory': {'total': 15.51840591430664}}
+2024-02-13 01:46:25,577 INFO    HandlerThread:1908161 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-13 01:46:25,577 INFO    HandlerThread:1908161 [system_monitor.py:probe():227] Publishing system info
+2024-02-13 01:46:25,577 DEBUG   HandlerThread:1908161 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-13 01:46:26,346 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/conda-environment.yaml
+2024-02-13 01:46:28,187 DEBUG   HandlerThread:1908161 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-13 01:46:28,187 INFO    HandlerThread:1908161 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-13 01:46:28,197 DEBUG   SenderThread:1908161 [sender.py:send():382] send: files
+2024-02-13 01:46:28,197 INFO    SenderThread:1908161 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-13 01:46:28,201 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-13 01:46:28,201 DEBUG   SenderThread:1908161 [sender.py:send_request():409] send_request: python_packages
+2024-02-13 01:46:28,202 DEBUG   SenderThread:1908161 [sender.py:send():382] send: telemetry
+2024-02-13 01:46:28,203 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-13 01:46:28,204 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-13 01:46:28,204 DEBUG   SenderThread:1908161 [sender.py:send_request():409] send_request: stop_status
+2024-02-13 01:46:28,345 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/conda-environment.yaml
+2024-02-13 01:46:28,345 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/wandb-metadata.json
+2024-02-13 01:46:28,345 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/requirements.txt
+2024-02-13 01:46:29,343 INFO    wandb-upload_0:1908161 [upload_job.py:push():131] Uploaded file /tmp/tmp911wmbg7wandb/l1vk47gt-wandb-metadata.json
+2024-02-13 01:46:29,613 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:46:34,613 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:46:36,347 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/output.log
+2024-02-13 01:46:38,356 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/output.log
+2024-02-13 01:46:39,356 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/output.log
+2024-02-13 01:46:40,389 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:46:43,203 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-13 01:46:43,204 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-13 01:46:43,206 DEBUG   SenderThread:1908161 [sender.py:send_request():409] send_request: stop_status
+2024-02-13 01:46:44,359 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/output.log
+2024-02-13 01:46:45,548 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:46:50,549 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:46:55,589 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:46:57,381 INFO    Thread-13 :1908161 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240213_014624-f3cakewr/files/config.yaml
+2024-02-13 01:46:58,474 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-13 01:46:58,585 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-13 01:46:58,626 DEBUG   SenderThread:1908161 [sender.py:send_request():409] send_request: stop_status
+2024-02-13 01:47:02,741 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:47:07,890 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:47:13,167 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:47:13,309 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-13 01:47:13,336 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-13 01:47:13,340 DEBUG   SenderThread:1908161 [sender.py:send_request():409] send_request: stop_status
+2024-02-13 01:47:18,987 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:47:29,531 DEBUG   SystemMonitor:1908161 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-13 01:47:49,527 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:48:15,290 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-13 01:48:36,758 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:48:36,763 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-13 01:48:36,763 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:48:36,763 DEBUG   SenderThread:1908161 [sender.py:send_request():409] send_request: stop_status
+2024-02-13 01:48:36,764 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,772 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,773 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 01:48:36,773 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:36,773 DEBUG   HandlerThread:1908161 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 01:48:37,177 DEBUG   SenderThread:1908161 [sender.py:send():382] send: stats
+2024-02-13 01:48:38,751 INFO    MainThread:1908161 [internal.py:handle_exit():76] Internal process exited

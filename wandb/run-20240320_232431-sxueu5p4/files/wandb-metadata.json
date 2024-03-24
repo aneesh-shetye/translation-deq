@@ -1,0 +1,43 @@
+{
+    "os": "macOS-13.5-arm64-arm-64bit",
+    "python": "3.9.6",
+    "heartbeatAt": "2024-03-21T03:24:33.430061",
+    "startedAt": "2024-03-21T03:24:31.725830",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/ssarch/Documents/proj/translation-deq-main/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "b-10-27-77-241.dynapool.vpn.nyu.edu",
+    "username": "ssarch",
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3504,
+        "min": 600,
+        "max": 3504
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3504,
+            "min": 600,
+            "max": 3504
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 11.092758178710938
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

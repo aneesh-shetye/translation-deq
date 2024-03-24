@@ -1,0 +1,37 @@
+cpu
+SRC torch.Size([100, 16])
+torch.Size([16, 6, 6])
+torch.Size([16, 6, 6])
+torch.Size([16, 6, 6])
+Traceback (most recent call last):
+  File "/Users/ssarch/Documents/proj/translation-deq-main/train.py", line 79, in <module>
+    output,res = anderson_solver(model,src,trg,device)
+  File "/Users/ssarch/Documents/proj/translation-deq-main/solvers.py", line 399, in anderson_solver
+    F[:,k%5],_ = f(X[:,k%5].view_as(x0).long(),y.long())#.view(bsz, -1)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ssarch/Documents/proj/translation-deq-main/model.py", line 34, in forward
+    enc_output = self.enc(src, attention_mask=mask)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/transformers/models/bert/modeling_bert.py", line 1006, in forward
+    embedding_output = self.embeddings(
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/transformers/models/bert/modeling_bert.py", line 232, in forward
+    inputs_embeds = self.word_embeddings(input_ids)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/sparse.py", line 162, in forward
+    return F.embedding(
+  File "/Users/ssarch/Library/Python/3.9/lib/python/site-packages/torch/nn/functional.py", line 2233, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+IndexError: index out of range in self

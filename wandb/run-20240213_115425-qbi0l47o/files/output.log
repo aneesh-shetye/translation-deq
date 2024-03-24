@@ -1,0 +1,66 @@
+/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/cuda/__init__.py:141: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+cpu
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+(5, 100)
+Traceback (most recent call last):
+  File "/home/ivlabs/repos/tfs/tranlslation-deq-main/train.py", line 86, in <module>
+    output = anderson_solver(model,src,trg,device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/repos/tfs/tranlslation-deq-main/solvers.py", line 351, in anderson_solver
+    out_exp,output=f( xk_exp,y_exp)
+                   ^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/repos/tfs/tranlslation-deq-main/model.py", line 34, in forward
+    enc_output = self.enc(src, attention_mask=mask)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1013, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 607, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 539, in forward
+    layer_output = apply_chunking_to_forward(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/transformers/pytorch_utils.py", line 236, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 552, in feed_forward_chunk
+    layer_output = self.output(intermediate_output, attention_output)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 465, in forward
+    hidden_states = self.dropout(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1507, in _wrapped_call_impl
+    def _wrapped_call_impl(self, *args, **kwargs):
+KeyboardInterrupt

@@ -1,0 +1,7 @@
+/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/cuda/__init__.py:141: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+cpu
+1
+Yes
+Output torch.Size([16, 100])
+Res [0.5368746938272516, 0.506989771769968, 0.46931305605279794, 0.4502957235858037, 0.464461324613064, 0.42795465432085833, 0.4505515243803542, 0.4604194890250336]

@@ -1,0 +1,165 @@
+{
+    "os": "Linux-5.15.0-91-generic-x86_64-with-glibc2.31",
+    "python": "3.12.1",
+    "heartbeatAt": "2024-02-12T20:28:46.196310",
+    "startedAt": "2024-02-12T20:28:45.276973",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--device",
+        "cpu"
+    ],
+    "state": "running",
+    "program": "/home/ivlabs/repos/tfs/tranlslation-deq-main/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "IvLabs",
+    "username": "ivlabs",
+    "executable": "/home/ivlabs/anaconda3/envs/nlp2/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2398.5271666666667,
+        "min": 2200.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2800.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 4416.943,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 4003.541,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 456.8854446411133,
+            "used": 433.50195693969727
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12630491136
+        }
+    ],
+    "memory": {
+        "total": 15.51840591430664
+    }
+}

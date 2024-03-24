@@ -1,0 +1,55 @@
+/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/cuda/__init__.py:141: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+cpu
+torch.Size([16, 100])
+torch.Size([16, 6, 6])
+torch.Size([16, 6, 6])
+Alpha torch.Size([16, 2, 100])
+torch.Size([16, 2, 100])
+Traceback (most recent call last):
+  File "/home/ivlabs/repos/tfs/tranlslation-deq-main/train.py", line 86, in <module>
+    x_out,output,output_exp = anderson_solver(model,src,trg,device)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/repos/tfs/tranlslation-deq-main/solvers.py", line 398, in anderson_solver
+    F[:,k%5] = f(X[:,k%5].view_as(x0),y).view(bsz, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/repos/tfs/tranlslation-deq-main/model.py", line 34, in forward
+    enc_output = self.enc(src, attention_mask=mask)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1006, in forward
+    embedding_output = self.embeddings(
+                       ^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 232, in forward
+    inputs_embeds = self.word_embeddings(input_ids)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/modules/sparse.py", line 163, in forward
+    return F.embedding(
+           ^^^^^^^^^^^^
+  File "/home/ivlabs/anaconda3/envs/nlp2/lib/python3.12/site-packages/torch/nn/functional.py", line 2237, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected tensor for argument #1 'indices' to have one of the following scalar types: Long, Int; but got torch.FloatTensor instead (while checking arguments for embedding)

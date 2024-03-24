@@ -1,0 +1,196 @@
+2024-03-20 23:24:31,742 INFO    StreamThr :42437 [internal.py:wandb_internal():86] W&B internal server running at pid: 42437, started at: 2024-03-20 23:24:31.740205
+2024-03-20 23:24:31,743 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: status
+2024-03-20 23:24:31,751 INFO    WriterThread:42437 [datastore.py:open_for_write():87] open: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/run-sxueu5p4.wandb
+2024-03-20 23:24:31,751 DEBUG   SenderThread:42437 [sender.py:send():378] send: header
+2024-03-20 23:24:31,752 DEBUG   SenderThread:42437 [sender.py:send():378] send: run
+2024-03-20 23:24:32,624 INFO    SenderThread:42437 [dir_watcher.py:__init__():211] watching files in: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files
+2024-03-20 23:24:32,624 INFO    SenderThread:42437 [sender.py:_start_run_threads():1099] run started: sxueu5p4 with start time 1710991471.741764
+2024-03-20 23:24:32,654 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: check_version
+2024-03-20 23:24:32,655 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: check_version
+2024-03-20 23:24:33,417 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: run_start
+2024-03-20 23:24:33,426 DEBUG   HandlerThread:42437 [system_info.py:__init__():26] System info init
+2024-03-20 23:24:33,427 DEBUG   HandlerThread:42437 [system_info.py:__init__():41] System info init done
+2024-03-20 23:24:33,427 INFO    HandlerThread:42437 [system_monitor.py:start():194] Starting system monitor
+2024-03-20 23:24:33,427 INFO    SystemMonitor:42437 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-20 23:24:33,427 INFO    HandlerThread:42437 [system_monitor.py:probe():214] Collecting system info
+2024-03-20 23:24:33,428 INFO    SystemMonitor:42437 [interfaces.py:start():190] Started cpu monitoring
+2024-03-20 23:24:33,429 DEBUG   HandlerThread:42437 [system_info.py:probe():150] Probing system
+2024-03-20 23:24:33,430 INFO    SystemMonitor:42437 [interfaces.py:start():190] Started disk monitoring
+2024-03-20 23:24:33,431 INFO    SystemMonitor:42437 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-20 23:24:33,442 INFO    SystemMonitor:42437 [interfaces.py:start():190] Started memory monitoring
+2024-03-20 23:24:33,445 INFO    SystemMonitor:42437 [interfaces.py:start():190] Started network monitoring
+2024-03-20 23:24:33,449 DEBUG   HandlerThread:42437 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-20 23:24:33,450 DEBUG   HandlerThread:42437 [system_info.py:probe():198] Probing system done
+2024-03-20 23:24:33,450 DEBUG   HandlerThread:42437 [system_monitor.py:probe():223] {'os': 'macOS-13.5-arm64-arm-64bit', 'python': '3.9.6', 'heartbeatAt': '2024-03-21T03:24:33.430061', 'startedAt': '2024-03-21T03:24:31.725830', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/ssarch/Documents/proj/translation-deq-main/train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'b-10-27-77-241.dynapool.vpn.nyu.edu', 'username': 'ssarch', 'executable': '/Library/Developer/CommandLineTools/usr/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3504, 'min': 600, 'max': 3504}, 'cpu_freq_per_core': [{'current': 3504, 'min': 600, 'max': 3504}], 'disk': {'/': {'total': 228.27386474609375, 'used': 11.092758178710938}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-03-20 23:24:33,450 INFO    HandlerThread:42437 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-20 23:24:33,450 INFO    HandlerThread:42437 [system_monitor.py:probe():227] Publishing system info
+2024-03-20 23:24:33,450 DEBUG   HandlerThread:42437 [system_info.py:_save_code():44] Saving code
+2024-03-20 23:24:33,451 DEBUG   HandlerThread:42437 [system_info.py:_save_code():65] Saving code done
+2024-03-20 23:24:33,452 INFO    HandlerThread:42437 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-20 23:24:33,465 DEBUG   SenderThread:42437 [sender.py:send():378] send: files
+2024-03-20 23:24:33,465 INFO    SenderThread:42437 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-20 23:24:33,465 INFO    SenderThread:42437 [sender.py:_save_file():1365] saving file code/train.py with policy now
+2024-03-20 23:24:33,626 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/wandb-metadata.json
+2024-03-20 23:24:33,626 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/code/train.py
+2024-03-20 23:24:33,627 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/code
+2024-03-20 23:24:33,655 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-20 23:24:33,655 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: python_packages
+2024-03-20 23:24:33,656 DEBUG   SenderThread:42437 [sender.py:send():378] send: telemetry
+2024-03-20 23:24:33,660 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-20 23:24:33,660 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: stop_status
+2024-03-20 23:24:33,660 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-20 23:24:33,964 INFO    wandb-upload_0:42437 [upload_job.py:push():131] Uploaded file /var/folders/6f/r7h6qwbj5y35qcpkwkgs579w0000gn/T/tmpldint5zywandb/y17qy23s-wandb-metadata.json
+2024-03-20 23:24:34,015 INFO    wandb-upload_1:42437 [upload_job.py:push():131] Uploaded file /var/folders/6f/r7h6qwbj5y35qcpkwkgs579w0000gn/T/tmpldint5zywandb/jq82rvl9-code/train.py
+2024-03-20 23:24:34,631 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/requirements.txt
+2024-03-20 23:24:36,867 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: status_report
+2024-03-20 23:24:40,659 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/output.log
+2024-03-20 23:24:42,151 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: status_report
+2024-03-20 23:24:42,669 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/output.log
+2024-03-20 23:24:47,856 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: status_report
+2024-03-20 23:24:48,664 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-20 23:24:48,667 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-20 23:24:48,668 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: stop_status
+2024-03-20 23:24:48,705 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/output.log
+2024-03-20 23:24:53,284 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: status_report
+2024-03-20 23:24:54,729 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/output.log
+2024-03-20 23:24:57,210 DEBUG   SenderThread:42437 [sender.py:send():378] send: exit
+2024-03-20 23:24:57,210 INFO    SenderThread:42437 [sender.py:send_exit():585] handling exit code: 1
+2024-03-20 23:24:57,211 INFO    SenderThread:42437 [sender.py:send_exit():587] handling runtime: 23
+2024-03-20 23:24:57,212 INFO    SenderThread:42437 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-20 23:24:57,214 INFO    SenderThread:42437 [sender.py:send_exit():593] send defer
+2024-03-20 23:24:57,214 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:57,214 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-20 23:24:57,215 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:57,215 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-20 23:24:57,215 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 1
+2024-03-20 23:24:57,215 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:57,215 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-20 23:24:57,215 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:57,215 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-20 23:24:57,215 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 2
+2024-03-20 23:24:57,215 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:57,215 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-20 23:24:57,215 INFO    HandlerThread:42437 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-20 23:24:57,215 DEBUG   SystemMonitor:42437 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-20 23:24:57,215 INFO    HandlerThread:42437 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-20 23:24:57,216 DEBUG   SystemMonitor:42437 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-20 23:24:57,216 INFO    HandlerThread:42437 [interfaces.py:finish():202] Joined disk monitor
+2024-03-20 23:24:57,216 DEBUG   SystemMonitor:42437 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-20 23:24:57,216 INFO    HandlerThread:42437 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-20 23:24:57,218 INFO    HandlerThread:42437 [interfaces.py:finish():202] Joined memory monitor
+2024-03-20 23:24:57,218 INFO    HandlerThread:42437 [interfaces.py:finish():202] Joined network monitor
+2024-03-20 23:24:57,219 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:57,219 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-20 23:24:57,219 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 3
+2024-03-20 23:24:57,219 DEBUG   SenderThread:42437 [sender.py:send():378] send: telemetry
+2024-03-20 23:24:57,219 DEBUG   SenderThread:42437 [sender.py:send():378] send: stats
+2024-03-20 23:24:57,219 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:57,219 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-20 23:24:57,219 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:57,219 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-20 23:24:57,219 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 4
+2024-03-20 23:24:57,220 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:57,220 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-20 23:24:57,220 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:57,220 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-20 23:24:57,220 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 5
+2024-03-20 23:24:57,220 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:57,220 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-20 23:24:57,220 DEBUG   SenderThread:42437 [sender.py:send():378] send: summary
+2024-03-20 23:24:57,220 INFO    SenderThread:42437 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-20 23:24:57,220 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:57,220 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-20 23:24:57,220 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 6
+2024-03-20 23:24:57,220 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:57,220 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-20 23:24:57,220 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:57,220 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-20 23:24:57,226 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: status_report
+2024-03-20 23:24:57,496 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 7
+2024-03-20 23:24:57,497 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:57,497 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-20 23:24:57,498 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:57,498 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-20 23:24:57,743 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/config.yaml
+2024-03-20 23:24:57,744 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/wandb-summary.json
+2024-03-20 23:24:58,212 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-20 23:24:58,749 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/output.log
+2024-03-20 23:24:59,221 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 8
+2024-03-20 23:24:59,224 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: poll_exit
+2024-03-20 23:24:59,224 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:59,225 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-20 23:24:59,226 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:59,226 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-20 23:24:59,226 INFO    SenderThread:42437 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-20 23:24:59,227 INFO    SenderThread:42437 [job_builder.py:_get_source_type():439] no source found
+2024-03-20 23:24:59,227 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 9
+2024-03-20 23:24:59,227 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:59,228 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-20 23:24:59,228 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:59,228 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-20 23:24:59,228 INFO    SenderThread:42437 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-20 23:24:59,754 INFO    Thread-12 :42437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/output.log
+2024-03-20 23:24:59,759 INFO    SenderThread:42437 [dir_watcher.py:finish():388] scan: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files
+2024-03-20 23:24:59,762 INFO    SenderThread:42437 [dir_watcher.py:finish():402] scan save: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/requirements.txt requirements.txt
+2024-03-20 23:24:59,762 INFO    SenderThread:42437 [dir_watcher.py:finish():402] scan save: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/output.log output.log
+2024-03-20 23:24:59,765 INFO    SenderThread:42437 [dir_watcher.py:finish():402] scan save: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/config.yaml config.yaml
+2024-03-20 23:24:59,767 INFO    SenderThread:42437 [dir_watcher.py:finish():402] scan save: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/wandb-summary.json wandb-summary.json
+2024-03-20 23:24:59,772 INFO    SenderThread:42437 [dir_watcher.py:finish():402] scan save: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/wandb-metadata.json wandb-metadata.json
+2024-03-20 23:24:59,775 INFO    SenderThread:42437 [dir_watcher.py:finish():402] scan save: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/code/train.py code/train.py
+2024-03-20 23:24:59,775 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 10
+2024-03-20 23:24:59,775 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:24:59,775 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-20 23:24:59,776 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:24:59,776 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-20 23:24:59,776 INFO    SenderThread:42437 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-20 23:24:59,970 INFO    wandb-upload_3:42437 [upload_job.py:push():131] Uploaded file /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/wandb-summary.json
+2024-03-20 23:24:59,970 INFO    wandb-upload_1:42437 [upload_job.py:push():131] Uploaded file /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/output.log
+2024-03-20 23:25:00,059 INFO    wandb-upload_0:42437 [upload_job.py:push():131] Uploaded file /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/requirements.txt
+2024-03-20 23:25:00,109 INFO    wandb-upload_2:42437 [upload_job.py:push():131] Uploaded file /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/files/config.yaml
+2024-03-20 23:25:00,233 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-20 23:25:00,241 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: poll_exit
+2024-03-20 23:25:00,315 INFO    Thread-11 :42437 [sender.py:transition_state():613] send defer: 11
+2024-03-20 23:25:00,316 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:25:00,316 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-20 23:25:00,316 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:25:00,316 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-20 23:25:00,316 INFO    SenderThread:42437 [file_pusher.py:join():178] waiting for file pusher
+2024-03-20 23:25:00,324 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 12
+2024-03-20 23:25:00,324 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:25:00,324 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-20 23:25:00,325 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:25:00,325 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-20 23:25:00,325 INFO    SenderThread:42437 [file_stream.py:finish():595] file stream finish called
+2024-03-20 23:25:00,387 INFO    SenderThread:42437 [file_stream.py:finish():599] file stream finish is done
+2024-03-20 23:25:00,387 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 13
+2024-03-20 23:25:00,388 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:25:00,388 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-20 23:25:00,388 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:25:00,389 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-20 23:25:00,390 INFO    SenderThread:42437 [sender.py:transition_state():613] send defer: 14
+2024-03-20 23:25:00,390 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: defer
+2024-03-20 23:25:00,390 DEBUG   SenderThread:42437 [sender.py:send():378] send: final
+2024-03-20 23:25:00,390 INFO    HandlerThread:42437 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-20 23:25:00,391 DEBUG   SenderThread:42437 [sender.py:send():378] send: footer
+2024-03-20 23:25:00,392 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: defer
+2024-03-20 23:25:00,392 INFO    SenderThread:42437 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-20 23:25:00,392 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-20 23:25:00,393 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: poll_exit
+2024-03-20 23:25:00,393 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-20 23:25:00,393 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: poll_exit
+2024-03-20 23:25:00,394 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: server_info
+2024-03-20 23:25:00,394 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: server_info
+2024-03-20 23:25:00,399 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-20 23:25:00,399 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-20 23:25:00,400 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-20 23:25:00,402 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: job_info
+2024-03-20 23:25:00,474 DEBUG   SenderThread:42437 [sender.py:send_request():405] send_request: job_info
+2024-03-20 23:25:00,474 INFO    MainThread:42437 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-20 23:25:00,475 INFO    MainThread:42437 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-20 23:25:00,475 INFO    MainThread:42437 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-20 23:25:00,487 DEBUG   HandlerThread:42437 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-20 23:25:00,487 INFO    HandlerThread:42437 [handler.py:finish():869] shutting down handler
+2024-03-20 23:25:01,407 INFO    WriterThread:42437 [datastore.py:close():296] close: /Users/ssarch/Documents/proj/translation-deq-main/wandb/run-20240320_232431-sxueu5p4/run-sxueu5p4.wandb
+2024-03-20 23:25:01,475 INFO    SenderThread:42437 [sender.py:finish():1521] shutting down sender
+2024-03-20 23:25:01,475 INFO    SenderThread:42437 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-20 23:25:01,475 INFO    SenderThread:42437 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,123 @@
+2024-02-14 14:31:28,241 INFO    StreamThr :235244 [internal.py:wandb_internal():86] W&B internal server running at pid: 235244, started at: 2024-02-14 14:31:28.240571
+2024-02-14 14:31:28,242 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status
+2024-02-14 14:31:28,243 INFO    WriterThread:235244 [datastore.py:open_for_write():87] open: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/run-73s90ssd.wandb
+2024-02-14 14:31:28,244 DEBUG   SenderThread:235244 [sender.py:send():382] send: header
+2024-02-14 14:31:28,244 DEBUG   SenderThread:235244 [sender.py:send():382] send: run
+2024-02-14 14:31:29,054 INFO    SenderThread:235244 [dir_watcher.py:__init__():211] watching files in: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files
+2024-02-14 14:31:29,054 INFO    SenderThread:235244 [sender.py:_start_run_threads():1136] run started: 73s90ssd with start time 1707901288.240466
+2024-02-14 14:31:29,061 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: check_version
+2024-02-14 14:31:29,062 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: check_version
+2024-02-14 14:31:29,599 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: run_start
+2024-02-14 14:31:29,603 DEBUG   HandlerThread:235244 [system_info.py:__init__():27] System info init
+2024-02-14 14:31:29,603 DEBUG   HandlerThread:235244 [system_info.py:__init__():42] System info init done
+2024-02-14 14:31:29,603 INFO    HandlerThread:235244 [system_monitor.py:start():194] Starting system monitor
+2024-02-14 14:31:29,603 INFO    SystemMonitor:235244 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-14 14:31:29,604 INFO    HandlerThread:235244 [system_monitor.py:probe():214] Collecting system info
+2024-02-14 14:31:29,604 INFO    SystemMonitor:235244 [interfaces.py:start():190] Started cpu monitoring
+2024-02-14 14:31:29,605 INFO    SystemMonitor:235244 [interfaces.py:start():190] Started disk monitoring
+2024-02-14 14:31:29,605 INFO    SystemMonitor:235244 [interfaces.py:start():190] Started gpu monitoring
+2024-02-14 14:31:29,606 INFO    SystemMonitor:235244 [interfaces.py:start():190] Started memory monitoring
+2024-02-14 14:31:29,607 INFO    SystemMonitor:235244 [interfaces.py:start():190] Started network monitoring
+2024-02-14 14:31:29,656 DEBUG   HandlerThread:235244 [system_info.py:probe():151] Probing system
+2024-02-14 14:31:29,658 DEBUG   HandlerThread:235244 [gitlib.py:_init_repo():56] git repository is invalid
+2024-02-14 14:31:29,658 DEBUG   HandlerThread:235244 [system_info.py:probe():199] Probing system done
+2024-02-14 14:31:29,658 DEBUG   HandlerThread:235244 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.12.1', 'heartbeatAt': '2024-02-14T09:01:29.656484', 'startedAt': '2024-02-14T09:01:28.238260', 'docker': None, 'cuda': None, 'args': ('--device', 'cpu'), 'state': 'running', 'program': '/home/ivlabs/repos/tfs/tranlslation-deq-main/train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'IvLabs', 'username': 'ivlabs', 'executable': '/home/ivlabs/anaconda3/envs/nlp2/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2253.7827083333336, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2199.354, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3721.62, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 4415.408, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3734.555, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}], 'disk': {'/': {'total': 456.8854446411133, 'used': 419.8342590332031}}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12630491136}], 'memory': {'total': 15.518424987792969}}
+2024-02-14 14:31:29,658 INFO    HandlerThread:235244 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-14 14:31:29,658 INFO    HandlerThread:235244 [system_monitor.py:probe():227] Publishing system info
+2024-02-14 14:31:29,658 DEBUG   HandlerThread:235244 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-14 14:31:30,055 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/conda-environment.yaml
+2024-02-14 14:31:31,750 DEBUG   HandlerThread:235244 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-14 14:31:31,751 INFO    HandlerThread:235244 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-14 14:31:31,752 DEBUG   SenderThread:235244 [sender.py:send():382] send: files
+2024-02-14 14:31:31,752 INFO    SenderThread:235244 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-14 14:31:31,756 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-14 14:31:31,756 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: python_packages
+2024-02-14 14:31:31,757 DEBUG   SenderThread:235244 [sender.py:send():382] send: telemetry
+2024-02-14 14:31:31,757 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:31:31,757 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:31:31,758 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:31:32,055 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/conda-environment.yaml
+2024-02-14 14:31:32,055 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/requirements.txt
+2024-02-14 14:31:32,055 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/wandb-metadata.json
+2024-02-14 14:31:35,527 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:31:36,101 INFO    wandb-upload_0:235244 [upload_job.py:push():131] Uploaded file /tmp/tmp197h3ojzwandb/vbrsati8-wandb-metadata.json
+2024-02-14 14:31:41,058 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/output.log
+2024-02-14 14:31:41,106 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:31:43,059 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/output.log
+2024-02-14 14:31:46,110 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:31:46,759 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:31:46,761 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:31:46,762 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:31:51,300 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:31:56,301 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:01,305 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:01,758 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:32:01,759 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:32:01,801 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:32:02,076 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/config.yaml
+2024-02-14 14:32:07,069 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:12,072 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:16,758 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:32:16,758 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:32:16,805 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:32:17,203 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:22,206 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:27,208 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:29,607 DEBUG   SystemMonitor:235244 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-14 14:32:29,609 DEBUG   SenderThread:235244 [sender.py:send():382] send: stats
+2024-02-14 14:32:31,760 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:32:31,761 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:32:31,806 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:32:32,358 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:37,359 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:42,362 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:46,758 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:32:46,758 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:32:46,802 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:32:48,099 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:53,101 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:58,102 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:32:59,610 DEBUG   SenderThread:235244 [sender.py:send():382] send: stats
+2024-02-14 14:33:01,757 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:33:01,759 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:33:01,801 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:33:03,257 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:08,259 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:13,261 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:16,758 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:33:16,759 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:33:16,805 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:33:19,213 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:24,215 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:29,217 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:29,612 DEBUG   SenderThread:235244 [sender.py:send():382] send: stats
+2024-02-14 14:33:31,761 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:33:31,761 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:33:31,761 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:33:34,265 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:39,267 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:44,142 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/output.log
+2024-02-14 14:33:44,934 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:46,763 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:33:46,765 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:33:46,767 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:33:50,144 INFO    Thread-13 :235244 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ivlabs/repos/tfs/tranlslation-deq-main/wandb/run-20240214_143128-73s90ssd/files/output.log
+2024-02-14 14:33:50,910 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:55,910 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:33:59,691 DEBUG   SenderThread:235244 [sender.py:send():382] send: stats
+2024-02-14 14:34:01,692 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:34:01,761 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:34:01,762 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:34:01,763 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:34:07,679 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:34:12,843 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:34:16,759 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-14 14:34:16,759 DEBUG   SenderThread:235244 [sender.py:send_request():409] send_request: stop_status
+2024-02-14 14:34:16,806 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-14 14:34:18,345 DEBUG   HandlerThread:235244 [handler.py:handle_request():146] handle_request: status_report
+2024-02-14 14:34:20,352 INFO    memory    :235244 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-02-14 14:34:20,352 INFO    cpu       :235244 [interfaces.py:monitor():140] Process cpu has exited.
+2024-02-14 14:34:20,352 DEBUG   SystemMonitor:235244 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-14 14:34:20,353 DEBUG   SystemMonitor:235244 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-14 14:34:20,355 DEBUG   SenderThread:235244 [sender.py:send():382] send: stats
+2024-02-14 14:34:21,341 INFO    MainThread:235244 [internal.py:handle_exit():76] Internal process exited
